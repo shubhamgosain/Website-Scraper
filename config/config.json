@@ -1,0 +1,18 @@
+{
+    "app_name": "website_scraper",
+    "environment": "production",
+    "worker_count": 3,
+    "website_scan_frequency_days" : 7,
+    "url_read_timeout_sec": 10,
+    "database": {
+            "user": "root",
+            "hosts": ["localhost"],
+            "name": "scraper",
+            "port": "26257",
+            "key": "",
+            "cert": ""
+    },
+    "api": {
+        "port": 4000
+    }
+}
