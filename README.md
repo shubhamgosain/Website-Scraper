@@ -1,6 +1,8 @@
-# Website Scarper
+# Website Scraper
 
-A system to execute regular HTTP based scans on websites to gain the site insights.
+A system to execute regular HTTP based scans on websites to gain the site insights. System need to be provided with the subdomain and domain which is later scraped over regular intervals.
+
+Application logic can be extended and modified further to work according to a specific requirement. A website can be scanned using the API endpoints given under the [API docs](https://github.com/shubhamgosain/Website-Scraper/blob/master/docs/API.md)
 
 
 ## Development Setup
