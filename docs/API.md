@@ -1,4 +1,4 @@
-# CMS-Scanner API endpoints
+# Wesbite Scraper API endpoints
 ---
 
 - `GET /api/v1.0/cms/scan`
