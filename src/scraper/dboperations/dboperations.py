@@ -90,7 +90,7 @@ class DBOperations:
             log.error("Failed to store domains, Err: %s", error, exc_info=True, extra=params())
             sys.exit(1)
 
-    # Cleanup the domains which are no longer in coredb
+    # Cleanup the domains
     def cleanup_domains(self, domains):
         log.info("Cleaning up %s domains", len(domains), extra=params())
         conn = self.__my_connection.cursor()

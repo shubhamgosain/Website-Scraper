@@ -72,7 +72,6 @@ class CMSScanner:
                 lang = soup.html["lang"]
             except:
                 pass
-            # lang '-' is replaced with '_' to make lang look alike the entries in coredb
             if lang:
                 lang = lang.replace('-', '_')
         return lang
@@ -124,7 +123,6 @@ class CMSScanner:
         return False, generator_meta
 
     # Check a URL generator meta, language and stores information in scraper database
-    # If a url is found to be having a wordpress code, it adds the cms entry in core db via systemsapi
     def scan_installation(self, domain, subdomain, dbo):
         generator_metas = []
         generator_meta = None
